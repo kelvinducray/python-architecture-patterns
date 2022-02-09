@@ -1,1 +1,1 @@
-from .batches import Batch, OrderLine
+from .model import Batch, OrderLine, allocate
