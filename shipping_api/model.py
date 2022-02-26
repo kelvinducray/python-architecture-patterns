@@ -9,7 +9,7 @@ from typing import Any, Optional
 from .exceptions import OutOfStock
 
 
-@dataclass(frozen=True)
+@dataclass(unsafe_hash=True)
 class OrderLine:
     order_id: str
     sku: str
